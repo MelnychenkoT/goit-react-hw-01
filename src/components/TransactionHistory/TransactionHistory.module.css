@@ -1,0 +1,43 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font: inherit;
+  }
+  
+  th,
+  td {
+    padding: 0;
+    vertical-align: top;
+  }
+  
+  .transactionTable {
+    border: 2px solid black;
+    margin: 0 auto;
+  }
+  
+  .tableHead {
+    background-color: #3f3b3b;
+    border: 1px solid black;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 0.04em;
+    padding: 8px 0;
+  }
+  
+  .tableLine:nth-child(even) {
+    background-color: #d2d2d2;
+  }
+  
+  .tableLine:nth-child(odd) {
+    background-color: transparent;
+  }
+  
+  .tableBody {
+    width: 200px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px;
+    text-transform: capitalize;
+  }
